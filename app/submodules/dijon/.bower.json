@@ -1,0 +1,24 @@
+{
+  "name": "dijon-lib",
+  "description": "dijon core js library for phaser game dev",
+  "authors": [
+    "anthonysapp <anthony@reli.sh>"
+  ],
+  "dependencies": {
+    "phaser-official": "https://github.com/photonstorm/phaser.git#db641ca82e608470bd7902de3447d048d9715ab5"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "_release": "81ea26c2fb",
+  "_resolution": {
+    "type": "branch",
+    "branch": "typescript",
+    "commit": "81ea26c2fb315b334048711c144812e096aafe69"
+  },
+  "_source": "https://bitbucket.org/relishinc/dijon-lib.git",
+  "_target": "typescript",
+  "_originalSource": "https://bitbucket.org/relishinc/dijon-lib.git"
+}

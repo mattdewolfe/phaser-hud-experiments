@@ -1,0 +1,2589 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>AssetManager | Relish Dijon Library</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script src="../assets/js/modernizr.js"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">Relish Dijon Library</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="assetmanager.html">AssetManager</a>
+				</li>
+			</ul>
+			<h1>Class AssetManager</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Wraps Phaser.Loader</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">AssetManager</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../interfaces/inotifier.html" class="tsd-signature-type">INotifier</a></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="assetmanager.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_assetpath" class="tsd-kind-icon">_asset<wbr>Path</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_audiospritepath" class="tsd-kind-icon">_audio<wbr>Sprite<wbr>Path</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_autoloaddata" class="tsd-kind-icon">_auto<wbr>Load<wbr>Data</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_baseurl" class="tsd-kind-icon">_baseURL</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_bitmapfontpath" class="tsd-kind-icon">_bitmap<wbr>Font<wbr>Path</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_cachebustversion" class="tsd-kind-icon">_cache<wbr>Bust<wbr>Version</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_completedloads" class="tsd-kind-icon">_completed<wbr>Loads</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_currentassetlist" class="tsd-kind-icon">_current<wbr>Asset<wbr>List</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_data" class="tsd-kind-icon">_data</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_datapath" class="tsd-kind-icon">_data<wbr>Path</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_filecompleteprogress" class="tsd-kind-icon">_file<wbr>Complete<wbr>Progress</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_fontpath" class="tsd-kind-icon">_font<wbr>Path</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_hasfiles" class="tsd-kind-icon">_has<wbr>Files</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_imgpath" class="tsd-kind-icon">_img<wbr>Path</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_isloadingqueue" class="tsd-kind-icon">_is<wbr>Loading<wbr>Queue</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_loaddata" class="tsd-kind-icon">_load<wbr>Data</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_maxpercent" class="tsd-kind-icon">_max<wbr>Percent</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_numsounds" class="tsd-kind-icon">_num<wbr>Sounds</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_pathobj" class="tsd-kind-icon">_path<wbr>Obj</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_physicspath" class="tsd-kind-icon">_physics<wbr>Path</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_requireddata" class="tsd-kind-icon">_required<wbr>Data</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_res" class="tsd-kind-icon">_res</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_resolution" class="tsd-kind-icon">_resolution</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_sounddecodingmodifier" class="tsd-kind-icon">_sound<wbr>Decoding<wbr>Modifier</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_soundpath" class="tsd-kind-icon">_sound<wbr>Path</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_soundsdecoded" class="tsd-kind-icon">_sounds<wbr>Decoded</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_soundstodecode" class="tsd-kind-icon">_sounds<wbr>ToDecode</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_spritesheetpath" class="tsd-kind-icon">_sprite<wbr>Sheet<wbr>Path</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="assetmanager.html#app" class="tsd-kind-icon">app</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="assetmanager.html#game" class="tsd-kind-icon">game</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="assetmanager.html#onbackgroundfilecomplete" class="tsd-kind-icon">on<wbr>Background<wbr>File<wbr>Complete</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="assetmanager.html#onbackgroundfilestart" class="tsd-kind-icon">on<wbr>Background<wbr>File<wbr>Start</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="assetmanager.html#onbackgroundloadcomplete" class="tsd-kind-icon">on<wbr>Background<wbr>Load<wbr>Complete</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="assetmanager.html#onbackgroundloadcompleteandaudiodecoded" class="tsd-kind-icon">on<wbr>Background<wbr>Load<wbr>Complete<wbr>And<wbr>Audio<wbr>Decoded</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="assetmanager.html#onbackgroundloadstart" class="tsd-kind-icon">on<wbr>Background<wbr>Load<wbr>Start</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="assetmanager.html#onfilecomplete" class="tsd-kind-icon">on<wbr>File<wbr>Complete</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="assetmanager.html#onfilestart" class="tsd-kind-icon">on<wbr>File<wbr>Start</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="assetmanager.html#onloadcomplete" class="tsd-kind-icon">on<wbr>Load<wbr>Complete</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="assetmanager.html#onloadcompleteandaudiodecoded" class="tsd-kind-icon">on<wbr>Load<wbr>Complete<wbr>And<wbr>Audio<wbr>Decoded</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="assetmanager.html#onloadstart" class="tsd-kind-icon">on<wbr>Load<wbr>Start</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="assetmanager.html#asset_list" class="tsd-kind-icon">ASSET_<wbr>LIST</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="assetmanager.html#atlas" class="tsd-kind-icon">ATLAS</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="assetmanager.html#audio" class="tsd-kind-icon">AUDIO</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="assetmanager.html#audio_sprite" class="tsd-kind-icon">AUDIO_<wbr>SPRITE</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="assetmanager.html#image" class="tsd-kind-icon">IMAGE</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="assetmanager.html#json" class="tsd-kind-icon">JSON</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="assetmanager.html#physics" class="tsd-kind-icon">PHYSICS</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="assetmanager.html#resolution_2x" class="tsd-kind-icon">RESOLUTION_<wbr>2X</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="assetmanager.html#resolution_3x" class="tsd-kind-icon">RESOLUTION_<wbr>3X</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="assetmanager.html#sound" class="tsd-kind-icon">SOUND</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="assetmanager.html#text" class="tsd-kind-icon">TEXT</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="assetmanager.html#tiledmap" class="tsd-kind-icon">TILEDMAP</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="assetmanager.html#tiledmap_layer" class="tsd-kind-icon">TILEDMAP_<wbr>LAYER</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="assetmanager.html#tiledmap_tileset" class="tsd-kind-icon">TILEDMAP_<wbr>TILESET</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="assetmanager.html#tilemap" class="tsd-kind-icon">TILEMAP</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-set-signature tsd-parent-kind-class"><a href="assetmanager.html#baseurl" class="tsd-kind-icon">baseURL</a></li>
+								<li class="tsd-kind-set-signature tsd-parent-kind-class"><a href="assetmanager.html#cachebustversion" class="tsd-kind-icon">cache<wbr>Bust<wbr>Version</a></li>
+								<li class="tsd-kind-set-signature tsd-parent-kind-class"><a href="assetmanager.html#paths" class="tsd-kind-icon">paths</a></li>
+								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="assetmanager.html#resolution" class="tsd-kind-icon">resolution</a></li>
+								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="assetmanager.html#sounddecodingmodifier" class="tsd-kind-icon">sound<wbr>Decoding<wbr>Modifier</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_backgroundfilecomplete" class="tsd-kind-icon">_background<wbr>File<wbr>Complete</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_backgroundloadcomplete" class="tsd-kind-icon">_background<wbr>Load<wbr>Complete</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_backgroundloadstart" class="tsd-kind-icon">_background<wbr>Load<wbr>Start</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_checksounddecoding" class="tsd-kind-icon">_check<wbr>Sound<wbr>Decoding</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_gamefilecomplete" class="tsd-kind-icon">_game<wbr>File<wbr>Complete</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_gamefilestart" class="tsd-kind-icon">_game<wbr>File<wbr>Start</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_gameloadcomplete" class="tsd-kind-icon">_game<wbr>Load<wbr>Complete</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_gameloadstart" class="tsd-kind-icon">_game<wbr>Load<wbr>Start</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_getassetkey" class="tsd-kind-icon">_get<wbr>Asset<wbr>Key</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_getcachebustedurl" class="tsd-kind-icon">_get<wbr>Cache<wbr>Busted<wbr>Url</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_getextension" class="tsd-kind-icon">_get<wbr>Extension</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_getresolution" class="tsd-kind-icon">_get<wbr>Resolution</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_init" class="tsd-kind-icon">_init</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_loadasset" class="tsd-kind-icon">_load<wbr>Asset</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_loadassets" class="tsd-kind-icon">_load<wbr>Assets</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_onsounddecoded" class="tsd-kind-icon">_on<wbr>Sound<wbr>Decoded</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_parseassetlist" class="tsd-kind-icon">_parse<wbr>Asset<wbr>List</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_parsedata" class="tsd-kind-icon">_parse<wbr>Data</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="assetmanager.html#_setbasetextureresolution" class="tsd-kind-icon">_set<wbr>Base<wbr>Texture<wbr>Resolution</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#allsoundsdecoded" class="tsd-kind-icon">all<wbr>Sounds<wbr>Decoded</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#clearasset" class="tsd-kind-icon">clear<wbr>Asset</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#clearassets" class="tsd-kind-icon">clear<wbr>Assets</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#getloadprogress" class="tsd-kind-icon">get<wbr>Load<wbr>Progress</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#hasloadedassets" class="tsd-kind-icon">has<wbr>Loaded<wbr>Assets</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#loadassets" class="tsd-kind-icon">load<wbr>Assets</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#loadatlas" class="tsd-kind-icon">load<wbr>Atlas</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#loadaudio" class="tsd-kind-icon">load<wbr>Audio</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#loadaudiosprite" class="tsd-kind-icon">load<wbr>Audio<wbr>Sprite</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#loadbitmapfont" class="tsd-kind-icon">load<wbr>Bitmap<wbr>Font</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#loadimage" class="tsd-kind-icon">load<wbr>Image</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#loadjson" class="tsd-kind-icon">loadJSON</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#loadphysics" class="tsd-kind-icon">load<wbr>Physics</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#loadqueue" class="tsd-kind-icon">load<wbr>Queue</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#loadsound" class="tsd-kind-icon">load<wbr>Sound</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#loadtext" class="tsd-kind-icon">load<wbr>Text</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#loadtiledmap" class="tsd-kind-icon">load<wbr>Tiledmap</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#loadtiledmapimage" class="tsd-kind-icon">load<wbr>Tiledmap<wbr>Image</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#loadtilemap" class="tsd-kind-icon">load<wbr>Tilemap</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#sendnotification" class="tsd-kind-icon">send<wbr>Notification</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="assetmanager.html#setdata" class="tsd-kind-icon">set<wbr>Data</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Asset<wbr>Manager<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="assetmanager.html" class="tsd-signature-type">AssetManager</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:129</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="assetmanager.html" class="tsd-signature-type">AssetManager</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_assetpath" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _asset<wbr>Path</h3>
+					<div class="tsd-signature tsd-kind-icon">_asset<wbr>Path<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:66</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_audiospritepath" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _audio<wbr>Sprite<wbr>Path</h3>
+					<div class="tsd-signature tsd-kind-icon">_audio<wbr>Sprite<wbr>Path<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:73</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_autoloaddata" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _auto<wbr>Load<wbr>Data</h3>
+					<div class="tsd-signature tsd-kind-icon">_auto<wbr>Load<wbr>Data<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:80</li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_baseurl" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _baseURL</h3>
+					<div class="tsd-signature tsd-kind-icon">_baseURL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:64</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_bitmapfontpath" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _bitmap<wbr>Font<wbr>Path</h3>
+					<div class="tsd-signature tsd-kind-icon">_bitmap<wbr>Font<wbr>Path<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:71</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_cachebustversion" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _cache<wbr>Bust<wbr>Version</h3>
+					<div class="tsd-signature tsd-kind-icon">_cache<wbr>Bust<wbr>Version<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:94</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_completedloads" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _completed<wbr>Loads</h3>
+					<div class="tsd-signature tsd-kind-icon">_completed<wbr>Loads<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:81</li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_currentassetlist" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _current<wbr>Asset<wbr>List</h3>
+					<div class="tsd-signature tsd-kind-icon">_current<wbr>Asset<wbr>List<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:84</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_data" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _data</h3>
+					<div class="tsd-signature tsd-kind-icon">_data<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:63</li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_datapath" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _data<wbr>Path</h3>
+					<div class="tsd-signature tsd-kind-icon">_data<wbr>Path<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:67</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_filecompleteprogress" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _file<wbr>Complete<wbr>Progress</h3>
+					<div class="tsd-signature tsd-kind-icon">_file<wbr>Complete<wbr>Progress<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:88</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_fontpath" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _font<wbr>Path</h3>
+					<div class="tsd-signature tsd-kind-icon">_font<wbr>Path<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:70</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_hasfiles" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _has<wbr>Files</h3>
+					<div class="tsd-signature tsd-kind-icon">_has<wbr>Files<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:85</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_imgpath" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _img<wbr>Path</h3>
+					<div class="tsd-signature tsd-kind-icon">_img<wbr>Path<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:69</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_isloadingqueue" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _is<wbr>Loading<wbr>Queue</h3>
+					<div class="tsd-signature tsd-kind-icon">_is<wbr>Loading<wbr>Queue<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:87</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_loaddata" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _load<wbr>Data</h3>
+					<div class="tsd-signature tsd-kind-icon">_load<wbr>Data<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:79</li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_maxpercent" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _max<wbr>Percent</h3>
+					<div class="tsd-signature tsd-kind-icon">_max<wbr>Percent<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:89</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_numsounds" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _num<wbr>Sounds</h3>
+					<div class="tsd-signature tsd-kind-icon">_num<wbr>Sounds<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:91</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_pathobj" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _path<wbr>Obj</h3>
+					<div class="tsd-signature tsd-kind-icon">_path<wbr>Obj<span class="tsd-signature-symbol">:</span> <a href="../interfaces/ipathconfig.html" class="tsd-signature-type">IPathConfig</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:65</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_physicspath" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _physics<wbr>Path</h3>
+					<div class="tsd-signature tsd-kind-icon">_physics<wbr>Path<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:72</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_requireddata" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _required<wbr>Data</h3>
+					<div class="tsd-signature tsd-kind-icon">_required<wbr>Data<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:82</li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_res" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _res</h3>
+					<div class="tsd-signature tsd-kind-icon">_res<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:76</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_resolution" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _resolution</h3>
+					<div class="tsd-signature tsd-kind-icon">_resolution<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:77</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_sounddecodingmodifier" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _sound<wbr>Decoding<wbr>Modifier</h3>
+					<div class="tsd-signature tsd-kind-icon">_sound<wbr>Decoding<wbr>Modifier<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:75</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_soundpath" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _sound<wbr>Path</h3>
+					<div class="tsd-signature tsd-kind-icon">_sound<wbr>Path<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:74</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_soundsdecoded" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _sounds<wbr>Decoded</h3>
+					<div class="tsd-signature tsd-kind-icon">_sounds<wbr>Decoded<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:92</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_soundstodecode" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _sounds<wbr>ToDecode</h3>
+					<div class="tsd-signature tsd-kind-icon">_sounds<wbr>ToDecode<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/isound.html" class="tsd-signature-type">ISound</a><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:86</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_spritesheetpath" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _sprite<wbr>Sheet<wbr>Path</h3>
+					<div class="tsd-signature tsd-kind-icon">_sprite<wbr>Sheet<wbr>Path<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:68</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="app" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> app</h3>
+					<div class="tsd-signature tsd-kind-icon">app<span class="tsd-signature-symbol">:</span> <a href="application.html" class="tsd-signature-type">Application</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:60</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="game" class="tsd-anchor"></a>
+					<h3>game</h3>
+					<div class="tsd-signature tsd-kind-icon">game<span class="tsd-signature-symbol">:</span> <a href="game.html" class="tsd-signature-type">Game</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:97</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onbackgroundfilecomplete" class="tsd-anchor"></a>
+					<h3>on<wbr>Background<wbr>File<wbr>Complete</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Background<wbr>File<wbr>Complete<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Signal</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:107</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onbackgroundfilestart" class="tsd-anchor"></a>
+					<h3>on<wbr>Background<wbr>File<wbr>Start</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Background<wbr>File<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Signal</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:106</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onbackgroundloadcomplete" class="tsd-anchor"></a>
+					<h3>on<wbr>Background<wbr>Load<wbr>Complete</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Background<wbr>Load<wbr>Complete<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Signal</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:108</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onbackgroundloadcompleteandaudiodecoded" class="tsd-anchor"></a>
+					<h3>on<wbr>Background<wbr>Load<wbr>Complete<wbr>And<wbr>Audio<wbr>Decoded</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Background<wbr>Load<wbr>Complete<wbr>And<wbr>Audio<wbr>Decoded<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Signal</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:109</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onbackgroundloadstart" class="tsd-anchor"></a>
+					<h3>on<wbr>Background<wbr>Load<wbr>Start</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Background<wbr>Load<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Signal</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:105</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onfilecomplete" class="tsd-anchor"></a>
+					<h3>on<wbr>File<wbr>Complete</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>File<wbr>Complete<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Signal</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:101</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onfilestart" class="tsd-anchor"></a>
+					<h3>on<wbr>File<wbr>Start</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>File<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Signal</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:100</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onloadcomplete" class="tsd-anchor"></a>
+					<h3>on<wbr>Load<wbr>Complete</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Load<wbr>Complete<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Signal</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:102</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onloadcompleteandaudiodecoded" class="tsd-anchor"></a>
+					<h3>on<wbr>Load<wbr>Complete<wbr>And<wbr>Audio<wbr>Decoded</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Load<wbr>Complete<wbr>And<wbr>Audio<wbr>Decoded<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Signal</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:103</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onloadstart" class="tsd-anchor"></a>
+					<h3>on<wbr>Load<wbr>Start</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Load<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Signal</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:99</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="asset_list" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> ASSET_<wbr>LIST</h3>
+					<div class="tsd-signature tsd-kind-icon">ASSET_<wbr>LIST<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:125</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="atlas" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> ATLAS</h3>
+					<div class="tsd-signature tsd-kind-icon">ATLAS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:117</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="audio" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> AUDIO</h3>
+					<div class="tsd-signature tsd-kind-icon">AUDIO<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:113</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="audio_sprite" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> AUDIO_<wbr>SPRITE</h3>
+					<div class="tsd-signature tsd-kind-icon">AUDIO_<wbr>SPRITE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:115</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="image" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> IMAGE</h3>
+					<div class="tsd-signature tsd-kind-icon">IMAGE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:116</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="json" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> JSON</h3>
+					<div class="tsd-signature tsd-kind-icon">JSON<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:119</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="physics" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> PHYSICS</h3>
+					<div class="tsd-signature tsd-kind-icon">PHYSICS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:124</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="resolution_2x" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> RESOLUTION_<wbr>2X</h3>
+					<div class="tsd-signature tsd-kind-icon">RESOLUTION_<wbr>2X<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:128</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="resolution_3x" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> RESOLUTION_<wbr>3X</h3>
+					<div class="tsd-signature tsd-kind-icon">RESOLUTION_<wbr>3X<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:129</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="sound" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> SOUND</h3>
+					<div class="tsd-signature tsd-kind-icon">SOUND<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:114</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="text" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> TEXT</h3>
+					<div class="tsd-signature tsd-kind-icon">TEXT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:118</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="tiledmap" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> TILEDMAP</h3>
+					<div class="tsd-signature tsd-kind-icon">TILEDMAP<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:121</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="tiledmap_layer" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> TILEDMAP_<wbr>LAYER</h3>
+					<div class="tsd-signature tsd-kind-icon">TILEDMAP_<wbr>LAYER<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:123</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="tiledmap_tileset" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> TILEDMAP_<wbr>TILESET</h3>
+					<div class="tsd-signature tsd-kind-icon">TILEDMAP_<wbr>TILESET<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:122</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="tilemap" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> TILEMAP</h3>
+					<div class="tsd-signature tsd-kind-icon">TILEMAP<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in dijon/core.ts:120</li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-set-signature tsd-parent-kind-class">
+					<a name="baseurl" class="tsd-anchor"></a>
+					<h3>baseURL</h3>
+					<ul class="tsd-signatures tsd-kind-set-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> baseURL<span class="tsd-signature-symbol">(</span>baseURL<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:769</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>baseURL: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-set-signature tsd-parent-kind-class">
+					<a name="cachebustversion" class="tsd-anchor"></a>
+					<h3>cache<wbr>Bust<wbr>Version</h3>
+					<ul class="tsd-signatures tsd-kind-set-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> cacheBustVersion<span class="tsd-signature-symbol">(</span>version<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:822</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>version: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-set-signature tsd-parent-kind-class">
+					<a name="paths" class="tsd-anchor"></a>
+					<h3>paths</h3>
+					<ul class="tsd-signatures tsd-kind-set-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> paths<span class="tsd-signature-symbol">(</span>pathObj<span class="tsd-signature-symbol">: </span><a href="../interfaces/ipathconfig.html" class="tsd-signature-type">IPathConfig</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:777</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>pathObj: <a href="../interfaces/ipathconfig.html" class="tsd-signature-type">IPathConfig</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+					<a name="resolution" class="tsd-anchor"></a>
+					<h3>resolution</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> resolution<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> resolution<span class="tsd-signature-symbol">(</span>res<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:804</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:791</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>res: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+					<a name="sounddecodingmodifier" class="tsd-anchor"></a>
+					<h3>sound<wbr>Decoding<wbr>Modifier</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> soundDecodingModifier<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> soundDecodingModifier<span class="tsd-signature-symbol">(</span>num<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:818</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>sets the percentage of the load we should allot to each sound</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:811</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>sets the percentage of the load we should allot to each sound</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>num: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_backgroundfilecomplete" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _background<wbr>File<wbr>Complete</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_background<wbr>File<wbr>Complete<span class="tsd-signature-symbol">(</span>progress<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, fileIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, totalFiles<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:199</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>when a file completes in an background load queue - dispatches the onBackgroundFileComplete signal</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>progress: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the percent progress</p>
+									</div>
+								</li>
+								<li>
+									<h5>id: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the file id</p>
+									</div>
+								</li>
+								<li>
+									<h5>fileIndex: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the index of the file in the list</p>
+									</div>
+								</li>
+								<li>
+									<h5>totalFiles: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the total number of files in the list</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_backgroundloadcomplete" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _background<wbr>Load<wbr>Complete</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_background<wbr>Load<wbr>Complete<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:212</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>when the background load completes - dispatches the onBackgroundLoadComplete signal, starts checking for decoded sounds</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_backgroundloadstart" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _background<wbr>Load<wbr>Start</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_background<wbr>Load<wbr>Start<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:186</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>start the background loading</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_checksounddecoding" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _check<wbr>Sound<wbr>Decoding</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_check<wbr>Sound<wbr>Decoding<span class="tsd-signature-symbol">(</span>eventToDispatch<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Signal</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:278</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>checks if all the sounds in the queue are decoded</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventToDispatch: <span class="tsd-signature-type">Signal</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the signal to be dispatched when all sounds are decoded</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_gamefilecomplete" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _game<wbr>File<wbr>Complete</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_game<wbr>File<wbr>Complete<span class="tsd-signature-symbol">(</span>progress<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, id<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span>, fileIndex<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, totalFiles<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:244</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>when a file completes in the game load - dispatches the onFileComplete signal</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>progress: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the percent progress</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> id: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the file id</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> fileIndex: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the index of the file in the list</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> totalFiles: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the total number of files in the list</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_gamefilestart" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _game<wbr>File<wbr>Start</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_game<wbr>File<wbr>Start<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:231</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>when a file starts loading - dispatches the onFileStart signal</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_gameloadcomplete" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _game<wbr>Load<wbr>Complete</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_game<wbr>Load<wbr>Complete<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:263</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>when the background load completes - dispatches the onLoadComplete signal, starts checking for decoded sounds</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_gameloadstart" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _game<wbr>Load<wbr>Start</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_game<wbr>Load<wbr>Start<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:223</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>when the asset list starts loading, dispatches the onLoadStart signal</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_getassetkey" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _get<wbr>Asset<wbr>Key</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_get<wbr>Asset<wbr>Key<span class="tsd-signature-symbol">(</span>fileName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:326</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>shortcut to get an asset key using a file name (strips its extension)</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>fileName: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the url of the file</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+							<p>the asset key (the filename with its extension stripped)</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_getcachebustedurl" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _get<wbr>Cache<wbr>Busted<wbr>Url</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_get<wbr>Cache<wbr>Busted<wbr>Url<span class="tsd-signature-symbol">(</span>url<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:426</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>url: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_getextension" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _get<wbr>Extension</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_get<wbr>Extension<span class="tsd-signature-symbol">(</span>fileName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:341</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>gets the extension of a given file</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>fileName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+							<p>the extension</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_getresolution" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _get<wbr>Resolution</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_get<wbr>Resolution<span class="tsd-signature-symbol">(</span>res<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:351</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>gets the extension of a given file</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>res: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+							<p>the extension</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_init" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _init</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_init<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:140</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>adds internal variables and signals</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_loadasset" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _load<wbr>Asset</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_load<wbr>Asset<span class="tsd-signature-symbol">(</span>asset<span class="tsd-signature-symbol">: </span><a href="../interfaces/iasset.html" class="tsd-signature-type">IAsset</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:375</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>determines what kind of asset we&#39;re dealing with and adds it to the load queue</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>asset: <a href="../interfaces/iasset.html" class="tsd-signature-type">IAsset</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the asset object we&#39;re going to load</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_loadassets" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _load<wbr>Assets</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_load<wbr>Assets<span class="tsd-signature-symbol">(</span>id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:172</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>adds assets from a list to the load list</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>id: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>id of the list to add</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_onsounddecoded" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _on<wbr>Sound<wbr>Decoded</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_on<wbr>Sound<wbr>Decoded<span class="tsd-signature-symbol">(</span>sound<span class="tsd-signature-symbol">: </span><a href="../interfaces/isound.html" class="tsd-signature-type">ISound</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:300</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>when a sound is decoded, this method removes it from the _soundsToDecode array, and increases the overall percentage loaded</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>sound: <a href="../interfaces/isound.html" class="tsd-signature-type">ISound</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the sound being decoded</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_parseassetlist" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _parse<wbr>Asset<wbr>List</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_parse<wbr>Asset<wbr>List<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, list<span class="tsd-signature-symbol">: </span><a href="../interfaces/iassetlist.html" class="tsd-signature-type">IAssetList</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:155</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>parses an asset list by key (usually from data/assets.json) and stores them internally</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>key: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the id of the list</p>
+									</div>
+								</li>
+								<li>
+									<h5>list: <a href="../interfaces/iassetlist.html" class="tsd-signature-type">IAssetList</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the json array of assets</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_parsedata" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _parse<wbr>Data</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_parse<wbr>Data<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:418</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>parses the data from the external assets file (normally data/assets.json)</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_setbasetextureresolution" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _set<wbr>Base<wbr>Texture<wbr>Resolution</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_set<wbr>Base<wbr>Texture<wbr>Resolution<span class="tsd-signature-symbol">(</span>texture<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">BaseTexture</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:252</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>texture: <span class="tsd-signature-type">BaseTexture</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="allsoundsdecoded" class="tsd-anchor"></a>
+					<h3>all<wbr>Sounds<wbr>Decoded</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">all<wbr>Sounds<wbr>Decoded<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:653</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="clearasset" class="tsd-anchor"></a>
+					<h3>clear<wbr>Asset</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">clear<wbr>Asset<span class="tsd-signature-symbol">(</span>asset<span class="tsd-signature-symbol">: </span><a href="../interfaces/iasset.html" class="tsd-signature-type">IAsset</a>, clearAudio<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, clearAtlasses<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, clearImages<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, clearText<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, clearJSON<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:708</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>clears an asset from the game&#39;s memory</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>asset: <a href="../interfaces/iasset.html" class="tsd-signature-type">IAsset</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the asset to clear</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> clearAudio: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> clearAtlasses: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> clearImages: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> clearText: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> clearJSON: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="clearassets" class="tsd-anchor"></a>
+					<h3>clear<wbr>Assets</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">clear<wbr>Assets<span class="tsd-signature-symbol">(</span>id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, clearAudio<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, clearAtlasses<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, clearImages<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, clearText<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, clearJSON<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:681</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>clears the assets from a particular id in the storage</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>id: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the id of the asset list to clear</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> clearAudio: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> clearAtlasses: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> clearImages: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> clearText: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> clearJSON: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getloadprogress" class="tsd-anchor"></a>
+					<h3>get<wbr>Load<wbr>Progress</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Load<wbr>Progress<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:647</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="hasloadedassets" class="tsd-anchor"></a>
+					<h3>has<wbr>Loaded<wbr>Assets</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">has<wbr>Loaded<wbr>Assets<span class="tsd-signature-symbol">(</span>id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:760</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>checks if the assets from this list id are already loaded</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>id: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the asset list id to check</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+							<p>whether it has been loaded already</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="loadassets" class="tsd-anchor"></a>
+					<h3>load<wbr>Assets</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Assets<span class="tsd-signature-symbol">(</span>id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, background<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:570</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>id: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> background: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;false</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="loadatlas" class="tsd-anchor"></a>
+					<h3>load<wbr>Atlas</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Atlas<span class="tsd-signature-symbol">(</span>url<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, resolution<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Loader</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:489</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>url: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> resolution: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Loader</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">string</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="loadaudio" class="tsd-anchor"></a>
+					<h3>load<wbr>Audio</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Audio<span class="tsd-signature-symbol">(</span>url<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, exts<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, isAudioSprite<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:521</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>url: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>exts: <span class="tsd-signature-type">any</span></h5>
+								</li>
+								<li>
+									<h5>isAudioSprite: <span class="tsd-signature-type">boolean</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="loadaudiosprite" class="tsd-anchor"></a>
+					<h3>load<wbr>Audio<wbr>Sprite</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Audio<wbr>Sprite<span class="tsd-signature-symbol">(</span>url<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, exts<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:566</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>url: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>exts: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="loadbitmapfont" class="tsd-anchor"></a>
+					<h3>load<wbr>Bitmap<wbr>Font</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Bitmap<wbr>Font<span class="tsd-signature-symbol">(</span>url<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, resolution<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:513</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>url: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> resolution: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="loadimage" class="tsd-anchor"></a>
+					<h3>load<wbr>Image</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Image<span class="tsd-signature-symbol">(</span>url<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, resolution<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Loader</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:499</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>url: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> resolution: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Loader</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">string</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="loadjson" class="tsd-anchor"></a>
+					<h3>loadJSON</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">loadJSON<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Loader</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:439</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>key: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Loader</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="loadphysics" class="tsd-anchor"></a>
+					<h3>load<wbr>Physics</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Physics<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Loader</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:484</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>key: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Loader</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="loadqueue" class="tsd-anchor"></a>
+					<h3>load<wbr>Queue</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Queue<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:616</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="loadsound" class="tsd-anchor"></a>
+					<h3>load<wbr>Sound</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Sound<span class="tsd-signature-symbol">(</span>url<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, exts<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:562</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>url: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>exts: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="loadtext" class="tsd-anchor"></a>
+					<h3>load<wbr>Text</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Text<span class="tsd-signature-symbol">(</span>url<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Loader</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:434</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>url: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Loader</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="loadtiledmap" class="tsd-anchor"></a>
+					<h3>load<wbr>Tiledmap</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Tiledmap<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, assets<span class="tsd-signature-symbol">: </span><a href="../interfaces/iasset.html" class="tsd-signature-type">IAsset</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:449</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>key: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>assets: <a href="../interfaces/iasset.html" class="tsd-signature-type">IAsset</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="loadtiledmapimage" class="tsd-anchor"></a>
+					<h3>load<wbr>Tiledmap<wbr>Image</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Tiledmap<wbr>Image<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, tilesetImageType<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, asset<span class="tsd-signature-symbol">: </span><a href="../interfaces/iasset.html" class="tsd-signature-type">IAsset</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:469</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>key: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>tilesetImageType: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>asset: <a href="../interfaces/iasset.html" class="tsd-signature-type">IAsset</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="loadtilemap" class="tsd-anchor"></a>
+					<h3>load<wbr>Tilemap</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Tilemap<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Loader</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:444</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>key: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Loader</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="sendnotification" class="tsd-anchor"></a>
+					<h3>send<wbr>Notification</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">send<wbr>Notification<span class="tsd-signature-symbol">(</span>notificationName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, notificationBody<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/inotifier.html">INotifier</a>.<a href="../interfaces/inotifier.html#sendnotification">sendNotification</a></p>
+								<ul>
+									<li>Defined in dijon/core.ts:764</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>notificationName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> notificationBody: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="setdata" class="tsd-anchor"></a>
+					<h3>set<wbr>Data</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Data<span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in dijon/core.ts:664</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>sets the data for the AssetManager to use as a reference (usually from data/assets.json)
+									triggers the _parseData internal method, which stores the asset list for later use</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>data: <span class="tsd-signature-type">Object</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+					<li class=" tsd-kind-class">
+						<a href="analyticsexception.html" class="tsd-kind-icon">Analytics<wbr>Exception</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="analyticsmanager.html" class="tsd-kind-icon">Analytics<wbr>Manager</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="application.html" class="tsd-kind-icon">Application</a>
+					</li>
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="assetmanager.html" class="tsd-kind-icon">Asset<wbr>Manager</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="assetmanager.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_assetpath" class="tsd-kind-icon">_asset<wbr>Path</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_audiospritepath" class="tsd-kind-icon">_audio<wbr>Sprite<wbr>Path</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_autoloaddata" class="tsd-kind-icon">_auto<wbr>Load<wbr>Data</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_baseurl" class="tsd-kind-icon">_baseURL</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_bitmapfontpath" class="tsd-kind-icon">_bitmap<wbr>Font<wbr>Path</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_cachebustversion" class="tsd-kind-icon">_cache<wbr>Bust<wbr>Version</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_completedloads" class="tsd-kind-icon">_completed<wbr>Loads</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_currentassetlist" class="tsd-kind-icon">_current<wbr>Asset<wbr>List</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_data" class="tsd-kind-icon">_data</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_datapath" class="tsd-kind-icon">_data<wbr>Path</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_filecompleteprogress" class="tsd-kind-icon">_file<wbr>Complete<wbr>Progress</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_fontpath" class="tsd-kind-icon">_font<wbr>Path</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_hasfiles" class="tsd-kind-icon">_has<wbr>Files</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_imgpath" class="tsd-kind-icon">_img<wbr>Path</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_isloadingqueue" class="tsd-kind-icon">_is<wbr>Loading<wbr>Queue</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_loaddata" class="tsd-kind-icon">_load<wbr>Data</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_maxpercent" class="tsd-kind-icon">_max<wbr>Percent</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_numsounds" class="tsd-kind-icon">_num<wbr>Sounds</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_pathobj" class="tsd-kind-icon">_path<wbr>Obj</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_physicspath" class="tsd-kind-icon">_physics<wbr>Path</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_requireddata" class="tsd-kind-icon">_required<wbr>Data</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_res" class="tsd-kind-icon">_res</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_resolution" class="tsd-kind-icon">_resolution</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_sounddecodingmodifier" class="tsd-kind-icon">_sound<wbr>Decoding<wbr>Modifier</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_soundpath" class="tsd-kind-icon">_sound<wbr>Path</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_soundsdecoded" class="tsd-kind-icon">_sounds<wbr>Decoded</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_soundstodecode" class="tsd-kind-icon">_sounds<wbr>ToDecode</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_spritesheetpath" class="tsd-kind-icon">_sprite<wbr>Sheet<wbr>Path</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="assetmanager.html#app" class="tsd-kind-icon">app</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="assetmanager.html#game" class="tsd-kind-icon">game</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="assetmanager.html#onbackgroundfilecomplete" class="tsd-kind-icon">on<wbr>Background<wbr>File<wbr>Complete</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="assetmanager.html#onbackgroundfilestart" class="tsd-kind-icon">on<wbr>Background<wbr>File<wbr>Start</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="assetmanager.html#onbackgroundloadcomplete" class="tsd-kind-icon">on<wbr>Background<wbr>Load<wbr>Complete</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="assetmanager.html#onbackgroundloadcompleteandaudiodecoded" class="tsd-kind-icon">on<wbr>Background<wbr>Load<wbr>Complete<wbr>And<wbr>Audio<wbr>Decoded</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="assetmanager.html#onbackgroundloadstart" class="tsd-kind-icon">on<wbr>Background<wbr>Load<wbr>Start</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="assetmanager.html#onfilecomplete" class="tsd-kind-icon">on<wbr>File<wbr>Complete</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="assetmanager.html#onfilestart" class="tsd-kind-icon">on<wbr>File<wbr>Start</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="assetmanager.html#onloadcomplete" class="tsd-kind-icon">on<wbr>Load<wbr>Complete</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="assetmanager.html#onloadcompleteandaudiodecoded" class="tsd-kind-icon">on<wbr>Load<wbr>Complete<wbr>And<wbr>Audio<wbr>Decoded</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="assetmanager.html#onloadstart" class="tsd-kind-icon">on<wbr>Load<wbr>Start</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="assetmanager.html#asset_list" class="tsd-kind-icon">ASSET_<wbr>LIST</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="assetmanager.html#atlas" class="tsd-kind-icon">ATLAS</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="assetmanager.html#audio" class="tsd-kind-icon">AUDIO</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="assetmanager.html#audio_sprite" class="tsd-kind-icon">AUDIO_<wbr>SPRITE</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="assetmanager.html#image" class="tsd-kind-icon">IMAGE</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="assetmanager.html#json" class="tsd-kind-icon">JSON</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="assetmanager.html#physics" class="tsd-kind-icon">PHYSICS</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="assetmanager.html#resolution_2x" class="tsd-kind-icon">RESOLUTION_<wbr>2X</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="assetmanager.html#resolution_3x" class="tsd-kind-icon">RESOLUTION_<wbr>3X</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="assetmanager.html#sound" class="tsd-kind-icon">SOUND</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="assetmanager.html#text" class="tsd-kind-icon">TEXT</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="assetmanager.html#tiledmap" class="tsd-kind-icon">TILEDMAP</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="assetmanager.html#tiledmap_layer" class="tsd-kind-icon">TILEDMAP_<wbr>LAYER</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="assetmanager.html#tiledmap_tileset" class="tsd-kind-icon">TILEDMAP_<wbr>TILESET</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="assetmanager.html#tilemap" class="tsd-kind-icon">TILEMAP</a>
+							</li>
+							<li class=" tsd-kind-set-signature tsd-parent-kind-class">
+								<a href="assetmanager.html#baseurl" class="tsd-kind-icon">baseURL</a>
+							</li>
+							<li class=" tsd-kind-set-signature tsd-parent-kind-class">
+								<a href="assetmanager.html#cachebustversion" class="tsd-kind-icon">cache<wbr>Bust<wbr>Version</a>
+							</li>
+							<li class=" tsd-kind-set-signature tsd-parent-kind-class">
+								<a href="assetmanager.html#paths" class="tsd-kind-icon">paths</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class">
+								<a href="assetmanager.html#resolution" class="tsd-kind-icon">resolution</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class">
+								<a href="assetmanager.html#sounddecodingmodifier" class="tsd-kind-icon">sound<wbr>Decoding<wbr>Modifier</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_backgroundfilecomplete" class="tsd-kind-icon">_background<wbr>File<wbr>Complete</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_backgroundloadcomplete" class="tsd-kind-icon">_background<wbr>Load<wbr>Complete</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_backgroundloadstart" class="tsd-kind-icon">_background<wbr>Load<wbr>Start</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_checksounddecoding" class="tsd-kind-icon">_check<wbr>Sound<wbr>Decoding</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_gamefilecomplete" class="tsd-kind-icon">_game<wbr>File<wbr>Complete</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_gamefilestart" class="tsd-kind-icon">_game<wbr>File<wbr>Start</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_gameloadcomplete" class="tsd-kind-icon">_game<wbr>Load<wbr>Complete</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_gameloadstart" class="tsd-kind-icon">_game<wbr>Load<wbr>Start</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_getassetkey" class="tsd-kind-icon">_get<wbr>Asset<wbr>Key</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_getcachebustedurl" class="tsd-kind-icon">_get<wbr>Cache<wbr>Busted<wbr>Url</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_getextension" class="tsd-kind-icon">_get<wbr>Extension</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_getresolution" class="tsd-kind-icon">_get<wbr>Resolution</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_init" class="tsd-kind-icon">_init</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_loadasset" class="tsd-kind-icon">_load<wbr>Asset</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_loadassets" class="tsd-kind-icon">_load<wbr>Assets</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_onsounddecoded" class="tsd-kind-icon">_on<wbr>Sound<wbr>Decoded</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_parseassetlist" class="tsd-kind-icon">_parse<wbr>Asset<wbr>List</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_parsedata" class="tsd-kind-icon">_parse<wbr>Data</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="assetmanager.html#_setbasetextureresolution" class="tsd-kind-icon">_set<wbr>Base<wbr>Texture<wbr>Resolution</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#allsoundsdecoded" class="tsd-kind-icon">all<wbr>Sounds<wbr>Decoded</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#clearasset" class="tsd-kind-icon">clear<wbr>Asset</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#clearassets" class="tsd-kind-icon">clear<wbr>Assets</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#getloadprogress" class="tsd-kind-icon">get<wbr>Load<wbr>Progress</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#hasloadedassets" class="tsd-kind-icon">has<wbr>Loaded<wbr>Assets</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#loadassets" class="tsd-kind-icon">load<wbr>Assets</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#loadatlas" class="tsd-kind-icon">load<wbr>Atlas</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#loadaudio" class="tsd-kind-icon">load<wbr>Audio</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#loadaudiosprite" class="tsd-kind-icon">load<wbr>Audio<wbr>Sprite</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#loadbitmapfont" class="tsd-kind-icon">load<wbr>Bitmap<wbr>Font</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#loadimage" class="tsd-kind-icon">load<wbr>Image</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#loadjson" class="tsd-kind-icon">loadJSON</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#loadphysics" class="tsd-kind-icon">load<wbr>Physics</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#loadqueue" class="tsd-kind-icon">load<wbr>Queue</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#loadsound" class="tsd-kind-icon">load<wbr>Sound</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#loadtext" class="tsd-kind-icon">load<wbr>Text</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#loadtiledmap" class="tsd-kind-icon">load<wbr>Tiledmap</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#loadtiledmapimage" class="tsd-kind-icon">load<wbr>Tiledmap<wbr>Image</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#loadtilemap" class="tsd-kind-icon">load<wbr>Tilemap</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#sendnotification" class="tsd-kind-icon">send<wbr>Notification</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="assetmanager.html#setdata" class="tsd-kind-icon">set<wbr>Data</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-class">
+						<a href="audiomanager.html" class="tsd-kind-icon">Audio<wbr>Manager</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="component.html" class="tsd-kind-icon">Component</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="copymodel.html" class="tsd-kind-icon">Copy<wbr>Model</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="device.html" class="tsd-kind-icon">Device</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="game.html" class="tsd-kind-icon">Game</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="gameobjectfactory.html" class="tsd-kind-icon">Game<wbr>Object<wbr>Factory</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="group.html" class="tsd-kind-icon">Group</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="invisiblebutton.html" class="tsd-kind-icon">Invisible<wbr>Button</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="mediator.html" class="tsd-kind-icon">Mediator</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="model.html" class="tsd-kind-icon">Model</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="ninesliceimage.html" class="tsd-kind-icon">Nine<wbr>Slice<wbr>Image</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="notification.html" class="tsd-kind-icon">Notification</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="notifications.html" class="tsd-kind-icon">Notifications</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="placeholders.html" class="tsd-kind-icon">Placeholders</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="sequencemanager.html" class="tsd-kind-icon">Sequence<wbr>Manager</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="sprite.html" class="tsd-kind-icon">Sprite</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="state.html" class="tsd-kind-icon">State</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="storagemanager.html" class="tsd-kind-icon">Storage<wbr>Manager</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="text.html" class="tsd-kind-icon">Text</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="textures.html" class="tsd-kind-icon">Textures</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="transitionmanager.html" class="tsd-kind-icon">Transition<wbr>Manager</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/iasset.html" class="tsd-kind-icon">IAsset</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/iassetlist.html" class="tsd-kind-icon">IAsset<wbr>List</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/ibrowser.html" class="tsd-kind-icon">IBrowser</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/igameconfig.html" class="tsd-kind-icon">IGame<wbr>Config</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/inotification.html" class="tsd-kind-icon">INotification</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/inotifier.html" class="tsd-kind-icon">INotifier</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/iobserver.html" class="tsd-kind-icon">IObserver</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/ipathconfig.html" class="tsd-kind-icon">IPath<wbr>Config</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/ipreloadhandler.html" class="tsd-kind-icon">IPreload<wbr>Handler</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/isound.html" class="tsd-kind-icon">ISound</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/itiledmapassets.html" class="tsd-kind-icon">ITiledmap<wbr>Assets</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/itransition.html" class="tsd-kind-icon">ITransition</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/itransitionhandler.html" class="tsd-kind-icon">ITransition<wbr>Handler</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.io" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

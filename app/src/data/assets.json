@@ -1,0 +1,52 @@
+{
+    "required": {
+        "assets": [
+            {
+                "type": "image",
+                "url": "menu_bg.png"
+            },
+            {
+                "type": "image",
+                "url": "preloader_bg.gif"
+            },
+            {
+                "type": "atlas",
+                "url": "menu"
+            },
+            {
+                "type": "atlas",
+                "url": "ui"
+            },
+            {
+                "type": "audioSprite",
+                "url": "fx_1",
+                "extensions": "ogg,mp3"
+            },
+            {
+                "type": "sound",
+                "url": "menu_loop",
+                "extensions": "ogg,mp3"
+            },
+            {
+                "type": "image",
+                "url": "attack-icon.png"
+            },
+            {
+                "type": "image",
+                "url": "coin.png"
+            },
+            {
+                "type": "image",
+                "url": "healthbar.png"
+            }
+        ]
+    },
+    "menu": {
+        "assets": [
+            {
+                "type": "atlas",
+                "url": "state_2"
+            }
+        ]
+    }
+}

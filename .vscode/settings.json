@@ -1,0 +1,20 @@
+// Place your settings in this file to overwrite the default settings
+{
+	"search.excludeFolders": [
+		".git",
+		"node_modules"
+	],
+	"editor.formatOnType": true,
+	"editor.tabSize": 4,
+	//-------- TypeScript configuration --------
+
+	// Complete functions with their parameter signature.
+	"typescript.useCodeSnippetsOnMethodSuggest": true,
+	//-------- ESLint configuration --------
+
+	// Control whether eslint is enabled for JavaScript files or not.
+	"eslint.enable": false,
+
+	// The eslint options object to provide args to the eslint command.
+	"eslint.options": {}
+}

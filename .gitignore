@@ -1,0 +1,9 @@
+phaser-hud-experiments.sublime-project
+phaser-hud-experiments.sublime-workspace
+debug
+*.sublime-project
+*.sublime-workspace
+**/fla/RECOVER_*
+app/jspm_packages
+app/bower_components
+app/node_modules

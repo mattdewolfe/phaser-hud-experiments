@@ -1,0 +1,40 @@
+{
+	"margins": {"left": 20, "right": 20, "top": 30, "bottom": 30},
+	"elements": [
+		{
+			"name": "health",
+			"type": "stat_with_bar",
+			"region": "topLeft",
+			"stat_to_track": "hero.health",
+			"properties": {
+				"texture": "healthbar",
+				"scale": {"x": 2, "y": 2},
+				"anchor": {"x": 0.5, "y": 0.5},
+				"barScaling": {"x": 1, "y": 0},
+				"maxSize": 100
+			}
+		},
+		{
+			"name": "attack", 
+			"type": "stat_with_text",
+			"region": "bottomCenter",
+			"stat_to_track": "hero.attack",
+			"properties": {
+				"texture": "attack-icon",
+				"scale": {"x": 2, "y": 2},
+				"anchor": {"x": 0.5, "y": 0.5}
+			}
+		},
+		{
+			"name": "defense", 
+			"type": "basic_element",
+			"region": "middleLeft",
+			"stat_to_track": "hero.defense",
+			"properties": {
+				"texture": "coin",
+				"scale": {"x": 2, "y": 2},
+				"anchor": {"x": 0.5, "y": 0.5}
+			}
+		}
+	]
+}
