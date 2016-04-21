@@ -27,7 +27,7 @@ export default class Menu extends BaseState {
 		
     // private methods
     private _addText(): void {
-        let text = this.add.dText(50, 50, 'HUD Test', 'Arial', 36, '#ffffff');
+        let text = this.add.dText(200, 200, 'HUD Test', 'Arial', 36, '#ffffff');
     }
 
     private _addHUD(): void {

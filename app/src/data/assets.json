@@ -38,6 +38,10 @@
             {
                 "type": "image",
                 "url": "healthbar.png"
+            },
+            {
+                "type": "image",
+                "url": "demon.png"
             }
         ]
     },

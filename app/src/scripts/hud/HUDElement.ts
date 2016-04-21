@@ -19,8 +19,8 @@ export interface IStat {
 }
 
 export class HUDElement extends Sprite {
-    constructor(name: string, x: number, y: number, properties: any) {
-        super(x, y, properties.texture, null, name);
+    constructor(name: string, properties: any) {
+        super(0, 0, properties.texture, null, name);
 
         if (properties.scale !== undefined) {
              this.scale = new Phaser.Point(properties.scale.x, properties.scale.y)
@@ -39,5 +39,10 @@ export class HUDElement extends Sprite {
     // This should only be called when a stat changes.    
     public updateElement(newStat: IStat): void {
         // Update this element based on new value
+    }
+
+    public reposition(x: number, y: number): void {
+        this.x = x - this.parent.x;
+        this.y = y - this.parent.y;
     }
 }

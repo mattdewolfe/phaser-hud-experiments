@@ -10,7 +10,29 @@
             {
                 "name": "health",
                 "type": "stat_with_bar",
-                "region": "topLeft",
+                "region": "topCenter",
+                "stat_to_track": "hero.health",
+                "properties": {
+                    "texture": "healthbar",
+                    "scale": {
+                        "x": 2,
+                        "y": 2
+                    },
+                    "anchor": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "barScaling": {
+                        "x": 1,
+                        "y": 0
+                    },
+                    "maxSize": 100
+                }
+            },
+            {
+                "name": "health2",
+                "type": "stat_with_bar",
+                "region": "topCenter",
                 "stat_to_track": "hero.health",
                 "properties": {
                     "texture": "healthbar",
@@ -33,6 +55,57 @@
                 "name": "attack",
                 "type": "stat_with_text",
                 "region": "bottomCenter",
+                "stat_to_track": "hero.attack",
+                "properties": {
+                    "texture": "attack-icon",
+                    "scale": {
+                        "x": 2,
+                        "y": 2
+                    },
+                    "anchor": {
+                        "x": 0.5,
+                        "y": 0.5
+                    }
+                }
+            },
+            {
+                "name": "attack2",
+                "type": "stat_with_text",
+                "region": "bottomRight",
+                "stat_to_track": "hero.attack",
+                "properties": {
+                    "texture": "attack-icon",
+                    "scale": {
+                        "x": 2,
+                        "y": 2
+                    },
+                    "anchor": {
+                        "x": 0.5,
+                        "y": 0.5
+                    }
+                }
+            },
+            {
+                "name": "attack3",
+                "type": "basic_element",
+                "region": "bottomRight",
+                "stat_to_track": "hero.attack",
+                "properties": {
+                    "texture": "attack-icon",
+                    "scale": {
+                        "x": 2,
+                        "y": 2
+                    },
+                    "anchor": {
+                        "x": 0.5,
+                        "y": 0.5
+                    }
+                }
+            },
+            {
+                "name": "attack4",
+                "type": "basic_element",
+                "region": "bottomRight",
                 "stat_to_track": "hero.attack",
                 "properties": {
                     "texture": "attack-icon",

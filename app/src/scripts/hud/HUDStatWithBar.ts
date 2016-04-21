@@ -5,8 +5,8 @@ export default class HUDStatWithBar extends HUDElement {
     protected _scaleVector: Phaser.Point;
     protected _maxSize: number = 50;
     
-    constructor(name: string, x: number, y: number, properties: any) {
-        super(name, x, y, properties);
+    constructor(name: string, properties: any) {
+        super(name, properties);
     }
 
     protected _parseProperties(properties: IHUDElementProperties): void {
