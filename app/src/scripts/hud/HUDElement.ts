@@ -19,6 +19,8 @@ export interface IStat {
 }
 
 export class HUDElement extends Sprite {
+    protected _currentValue: number;
+    
     constructor(name: string, properties: any) {
         super(0, 0, properties.texture, null, name);
 
@@ -30,6 +32,7 @@ export class HUDElement extends Sprite {
         }
 
         this._parseProperties(properties);
+        this._currentValue = 0;
     }
 
     protected _parseProperties(properties: IHUDElementProperties): void {
@@ -38,7 +41,7 @@ export class HUDElement extends Sprite {
 
     // This should only be called when a stat changes.    
     public updateElement(newStat: IStat): void {
-        // Update this element based on new value
+        this._currentValue = newStat.current;
     }
 
     public reposition(x: number, y: number): void {

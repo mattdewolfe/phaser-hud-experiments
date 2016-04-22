@@ -42,6 +42,14 @@
             {
                 "type": "image",
                 "url": "demon.png"
+            },
+            {
+                "type": "image",
+                "url": "swordskeleton.png"
+            },
+            {
+                "type": "image",
+                "url": "chest.png"
             }
         ]
     },

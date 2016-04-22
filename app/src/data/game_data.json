@@ -11,7 +11,7 @@
                 "name": "health",
                 "type": "stat_with_bar",
                 "region": "topCenter",
-                "stat_to_track": "hero.health",
+                "stat_to_track": "herohealth",
                 "properties": {
                     "texture": "healthbar",
                     "scale": {
@@ -33,7 +33,7 @@
                 "name": "health2",
                 "type": "stat_with_bar",
                 "region": "topCenter",
-                "stat_to_track": "hero.health",
+                "stat_to_track": "herohealth",
                 "properties": {
                     "texture": "healthbar",
                     "scale": {
@@ -55,7 +55,7 @@
                 "name": "attack",
                 "type": "stat_with_text",
                 "region": "bottomCenter",
-                "stat_to_track": "hero.attack",
+                "stat_to_track": "heroattack",
                 "properties": {
                     "texture": "attack-icon",
                     "scale": {
@@ -72,7 +72,7 @@
                 "name": "attack2",
                 "type": "stat_with_text",
                 "region": "bottomRight",
-                "stat_to_track": "hero.attack",
+                "stat_to_track": "heroattack",
                 "properties": {
                     "texture": "attack-icon",
                     "scale": {
@@ -89,7 +89,7 @@
                 "name": "attack3",
                 "type": "basic_element",
                 "region": "bottomRight",
-                "stat_to_track": "hero.attack",
+                "stat_to_track": "heroattack",
                 "properties": {
                     "texture": "attack-icon",
                     "scale": {
@@ -106,7 +106,7 @@
                 "name": "attack4",
                 "type": "basic_element",
                 "region": "bottomRight",
-                "stat_to_track": "hero.attack",
+                "stat_to_track": "heroattack",
                 "properties": {
                     "texture": "attack-icon",
                     "scale": {
@@ -123,7 +123,7 @@
                 "name": "defense",
                 "type": "basic_element",
                 "region": "middleLeft",
-                "stat_to_track": "hero.defense",
+                "stat_to_track": "herodefense",
                 "properties": {
                     "texture": "coin",
                     "scale": {
@@ -139,6 +139,49 @@
         ]
     },
     "main": {
-        "bar": "foo"
+        "stats": {
+            "health": {
+                "min": 4,
+                "max": 20
+            },
+            "defense": {
+                "min": 2,
+                "max": 10
+            },
+            "attack": {
+                "min": 3,
+                "max": 10
+            }
+        },
+        "world": {
+            "objects": {
+                "hero": {
+                    "key": "swordskeleton",
+                    "stats": [
+                        "health",
+                        "defense",
+                        "attack"
+                    ]
+                },
+                "chest": {
+                    "key": "chest",
+                    "stats": [
+                        "health"
+                    ]
+                }
+            },
+            "level1": [
+                {
+                    "type": "hero",
+                    "x": 100,
+                    "y": 100
+                },
+                {
+                    "type": "chest",
+                    "x": 400,
+                    "y": 400
+                }
+            ]
+        }
     }
 }

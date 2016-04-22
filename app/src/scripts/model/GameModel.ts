@@ -7,7 +7,7 @@ export default class GameModel extends Model {
         return GameModel.MODEL_NAME;
     }
 
-    public get hudData(): any {
-        return this._data.hud;
-    }
+    public get gameData(): any {
+        return this._data;
+    }    
 }

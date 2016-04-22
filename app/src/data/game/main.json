@@ -1,3 +1,42 @@
 {
-    "bar": "foo"
+    "stats": {
+        "health": {
+            "min": 4, 
+            "max": 20 
+        },
+        "defense" : {
+            "min": 2, 
+            "max": 10 
+        },
+        "attack" : {
+            "min": 3, 
+            "max": 10 
+        }
+    },
+    "world":  {
+        "objects": {
+                "hero": { 
+                    "key": "swordskeleton",
+                    "stats": [
+                        "health", "defense", "attack"
+                ]},
+                "chest": { 
+                    "key": "chest",
+                    "stats": [
+                        "health"
+                ]}
+        },
+        "level1": [
+            {
+                "type": "hero",
+                "x": 100, 
+                "y": 100 
+            },
+            {
+                "type": "chest",
+                "x": 400, 
+                "y": 400
+            }
+        ]
+    }
 }

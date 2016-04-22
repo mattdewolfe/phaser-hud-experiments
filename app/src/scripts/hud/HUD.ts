@@ -1,6 +1,7 @@
 import {Group} from 'dijon/display';
 import HUDRegions from './HUDRegions';
 import {IHUDElementProperties, HUDElement} from './HUDElement';
+import Stat from '../stats/Stat';
 import HUDStatWithBar from './HUDStatWithBar';
 import HUDStatWithText from './HUDStatWithText';
 
@@ -22,7 +23,7 @@ export interface IHUDElementData {
 export default class HUD extends Group {
     private _data: IHUDData;
     private _regions: HUDRegions;
-    private _statID: number;
+    private _trackedStats: HUDElement[];
     private _prefabElements: any = {
         "basic_element": HUDElement,
         "stat_with_bar": HUDStatWithBar,
@@ -32,10 +33,10 @@ export default class HUD extends Group {
     constructor(data: IHUDData) {
         super(0, 0, "HUD");
         this._data = data;
+        this._trackedStats = [];
     }
-
+    
     public init(): void {
-        this._statID = 0;
         let camWidth: number, camHeight: number, camCenter: Phaser.Point;
         camWidth = this.game.camera.width;
         camHeight = this.game.camera.height;
@@ -55,9 +56,9 @@ export default class HUD extends Group {
                 region = this._regions[elementParems.region];
                 // create the element prefab in the beginning of the region
                 newElement = this._createHUDElement(elementParems.type, elementName, elementParems.properties);
+                this._trackedStats.push(newElement);
                 // add the element to its correspondent region
                 region.addElement(newElement);
-                this._statID++;
             }
         }
 
@@ -75,5 +76,10 @@ export default class HUD extends Group {
         }
 
         return newElement;
-    }    
+    }
+
+    public notifyStatChange(stat: Stat): void {
+        if (this._trackedStats.length > stat.id)
+            this._trackedStats[stat.id].updateElement(stat);
+    }
 }

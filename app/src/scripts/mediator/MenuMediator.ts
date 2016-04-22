@@ -12,6 +12,14 @@ export default class MenuMediator extends BaseMediator {
     }
 
     public get hudData(): any {
-        return this.gameModel.hudData;
+        return this.gameModel.gameData.hud;
+    }
+
+    public get statData(): any {
+        return this.gameModel.gameData.main.stats;
+    }
+
+    public get worldData(): any {
+        return this.gameModel.gameData.main.world;
     }
 }
